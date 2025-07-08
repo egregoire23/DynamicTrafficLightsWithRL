@@ -29,3 +29,7 @@ The Q-Learning agent provided the highest performance for optimizing traffic lig
 Challenges & Learning:
 
 A big challenge to success on the UB Medical Campus map was that of the 19 intersections featured, each of which presented a different number of turn signal patterns, traffic flow directions, and number of lanes. Working through this hurdle greatly improved my ability to problem-solve in real-world situations. Additionally, I learned that complex problems like this can take days or even weeks to run, and time management is crucial when dealing with deadlines for such large tasks.
+
+Contribution:
+- Team Members: Erin Gregoire & Daniel Viola
+- My Role: Developed the SARSA agent, implemented the PPO agent, assisted development of Q-Learning & DDQN agents, and evaluated the single intersection environment
