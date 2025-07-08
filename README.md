@@ -4,6 +4,8 @@ The University at Buffalo's Medical Campus is located in a busy area in downtown
 
 Skills:
 
+PyTorch, Model Evaluation, Public Speaking, Real-world problem-solving
+
 Data:
 - Single Intersection Traffic Data from SUMO-RL ([link](https://github.com/LucasAlegre/sumo-rl))
 - UB Medical Campus Traffic Data from Open Data Buffalo ([link](https://data.buffalony.gov/Transportation/Annual-Average-Daily-Traffic-Volume-Counts/y93c-u65y/about_data))
@@ -21,6 +23,9 @@ Tools & Technologies:
 - Software: Jupyter Notebook, GitHub, SUMO, Netedit
 
 Results & Evaluation:
+
 The Q-Learning agent provided the highest performance for optimizing traffic lights dynamically at UB's Medical Campus. Compared to the current baseline, our Q-Learning agent using dynamic patterns can reduce each vehicle's commute by more than 6 seconds at each intersection. These findings, if applied, could drastically reduce the average vehicle waiting time at the intersections in downtown Buffalo.
 
 Challenges & Learning:
+
+A big challenge to success on the UB Medical Campus map was that of the 19 intersections featured, each of which presented a different number of turn signal patterns, traffic flow directions, and number of lanes. Working through this hurdle greatly improved my ability to problem-solve in real-world situations. Additionally, I learned that complex problems like this can take days or even weeks to run, and time management is crucial when dealing with deadlines for such large tasks.
