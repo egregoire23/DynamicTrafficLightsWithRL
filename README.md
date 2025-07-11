@@ -4,32 +4,32 @@ The University at Buffalo's Medical Campus is located in a busy area in downtown
 
 Skills:
 
-PyTorch, Model Evaluation, Public Speaking, Real-world problem-solving
+PyTorch, Model Evaluation, Public Speaking & Presentation, Real-world Problem-Solving, Reinforcement Learning
 
 Data:
 - Single Intersection Traffic Data from SUMO-RL ([link](https://github.com/LucasAlegre/sumo-rl))
 - UB Medical Campus Traffic Data from Open Data Buffalo ([link](https://data.buffalony.gov/Transportation/Annual-Average-Daily-Traffic-Volume-Counts/y93c-u65y/about_data))
 
 Methodology:
-- Built 3 RL agents from scratch (Q-Learning, SARSA, Double DQN)
-- Utilized the PPO agent from the Stable-Baselines3 library
+- Developed 3 RL agents from scratch: Q-Learning, SARSA, & Double DQN
+- Implemented the PPO agent using the Stable-Baselines3 library
 - Trained and evaluated all four agents on a simple single intersection
-- Trained and evaluated the best-performing agents on the UB Medical Campus intersections
+- Trained and evaluated the top-performing agents on a full simulation of UB’s Medical Campus
 - Compared the overall best model with the current system in place (Fixed or Random Agent)
 
 Tools & Technologies:
 - Programming Language: Python
-- Libraries: PyTorch, gymnasium, sumo_rl, stable_baselines3
-- Software: Jupyter Notebook, GitHub, SUMO, Netedit
+- Libraries: torch, gymnasium, sumo_rl, stable_baselines3
+- Software: Jupyter Notebook, SUMO, NetEdit, GitHub
 
 Results & Evaluation:
 
-The Q-Learning agent provided the highest performance for optimizing traffic lights dynamically at UB's Medical Campus. Compared to the current baseline, our Q-Learning agent using dynamic patterns can reduce each vehicle's commute by more than 6 seconds at each intersection. These findings, if applied, could drastically reduce the average vehicle waiting time at the intersections in downtown Buffalo.
+Our Q-Learning agent achieved the best performance, dynamically adapting to real-time traffic conditions and outperforming traditional fixed-pattern systems. Simulations showed a reduction of more than 6 seconds in commute time per vehicle per intersection, highlighting the potential for real-world impact if such models were deployed city-wide.
 
 Challenges & Learning:
 
-A big challenge to success on the UB Medical Campus map was that of the 19 intersections featured, each of which presented a different number of turn signal patterns, traffic flow directions, and number of lanes. Working through this hurdle greatly improved my ability to problem-solve in real-world situations. Additionally, I learned that complex problems like this can take days or even weeks to run, and time management is crucial when dealing with deadlines for such large tasks.
+The UB Medical Campus includes 19 intersections, each with unique traffic flows, signal patterns, and lane configurations. Designing a model that could generalize across such diverse conditions was a significant challenge. I learned that large-scale simulations require extensive runtime, and managing computational resources and deadlines was critical to success. Lastly, this project strengthened my real-world problem-solving ability and reinforced the importance of scalability and time management in applied AI research.
 
 Contribution:
 - Team Members: Erin Gregoire & Daniel Viola
-- My Role: Developed the SARSA agent, implemented the PPO agent, assisted development of Q-Learning & DDQN agents, and evaluated the single intersection environment
+- My Role: Developed the SARSA agent from scratch, implemented and fine-tuned the PPO agent, assisted development of Q-Learning & DDQN agents, and evaluated the single intersection environment
