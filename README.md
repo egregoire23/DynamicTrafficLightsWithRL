@@ -31,5 +31,12 @@ Challenges & Learning:
 The UB Medical Campus includes 19 intersections, each with unique traffic flows, signal patterns, and lane configurations. Designing a model that could generalize across such diverse conditions was a significant challenge. I learned that large-scale simulations require extensive runtime, and managing computational resources and deadlines was critical to success. Lastly, this project strengthened my real-world problem-solving ability and reinforced the importance of scalability and time management in applied AI research.
 
 Contribution:
-- Team Members: Erin Gregoire & Daniel Viola
-- My Role: Developed the SARSA agent from scratch, implemented and fine-tuned the PPO agent, assisted development of Q-Learning & DDQN agents, and evaluated the single intersection environment
+
+Team Members: Erin Gregoire & Daniel Viola
+
+My Role: 
+- Developed the SARSA agent from scratch
+- Implemented and fine-tuned the PPO agent
+- Assisted development of Q-Learning & DDQN agents
+- Evaluated the single intersection environment
+- Co-built and fine-tuned the presentation poster
